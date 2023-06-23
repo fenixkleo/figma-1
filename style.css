@@ -1,0 +1,45 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+ul, li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+.header{
+    background: #c8a35a;
+    color: #ffffff;
+}
+
+.header .cotainer{
+    width: 1110px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .cotainer .lang{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.header .cotainer .lang p{
+    text-transform: uppercase;
+
+    opacity: 50%;
+}
+
+.header .cotainer .lang p.active{
+    opacity: 1;
+}
